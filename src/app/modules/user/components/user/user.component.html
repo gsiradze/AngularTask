@@ -1,0 +1,5 @@
+<button (click)="back()">Back</button>
+
+<ng-container *ngIf="user">
+  <app-user-data [user]="user"></app-user-data>
+</ng-container>
